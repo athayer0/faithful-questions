@@ -15,7 +15,8 @@ export default function App() {
     setResponse(null);
 
     try {
-      const apiResponse = await fetch('http://localhost:3001/api/query', {
+//    const apiResponse = await fetch('http://localhost:3001/api/query', {
+      const apiResponse = await fetch('/api/query', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

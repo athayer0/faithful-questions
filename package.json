@@ -2,11 +2,13 @@
   "name": "faithful-questions",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "npm run server & npm run client",
     "server": "node server/server.js",
     "client": "cd client && vite",
+    "build": "cd client && vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
