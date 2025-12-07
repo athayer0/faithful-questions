@@ -71,7 +71,7 @@ export default function App() {
           />
           <div className="mt-4 flex justify-between items-center">
             <p className="text-sm text-gray-500">
-              Press Ctrl+Enter to submit
+              Press Enter to submit
             </p>
             <button
               onClick={handleSubmit}
