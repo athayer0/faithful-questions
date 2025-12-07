@@ -50,10 +50,10 @@ export default function App() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-3">
-            Gospel Question Helper
+            Faithful Questions
           </h1>
           <p className="text-gray-600">
-            A compassionate space to explore your questions about faith
+            A compassionate space to find resources for questions about your faith.
           </p>
         </div>
 
